@@ -1,7 +1,7 @@
 #include "stack.h"
 #include <stdio.h>
 #include <stdlib.h>
-#define LENGTH 10
+#define LENGTH 12
 char charArray[20];
 int parse(struct stack *s, int count, int result) {
 
@@ -58,7 +58,7 @@ int parse(struct stack *s, int count, int result) {
 int main() {
   struct stack s = {0};
 
-  char arr[LENGTH] = "+5+4+3+12";
+  char arr[LENGTH] = "+5+4+3+12+12";
 
   dump(&s, arr);
 
