@@ -125,6 +125,22 @@ void print() {
   }
 }
 
+void rev() {
+  if (first == NULL) {
+    printf("The linked list is empty\n");
+  } else if (first == last) {
+    return;
+  } else {
+
+    struct linkedList *tmp = first;
+    
+    while (tmp->next != last) {
+      tmp = tmp->next;
+    }
+    last->next = tmp;
+  }
+}
+
 int main() {
 
   struct linkedList l;

@@ -1,4 +1,4 @@
-#define LEN 10
+#define LEN 20
 #include "cusString.h"
 struct stack {
 

@@ -58,7 +58,7 @@ int parse(struct stack *s, int count, int result) {
 int main() {
   struct stack s = {0};
 
-  char arr[LENGTH] = "+5+4+3+12+12";
+  char arr[LENGTH] = "*3+5+4+3+12";
 
   dump(&s, arr);
 
